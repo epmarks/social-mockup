@@ -4,8 +4,13 @@
 }
 
 a:hover {
-  background-color: purple;
-  color: peru;
+  background-color: lightgray;
+  color: black;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
 }
 
 body,
@@ -40,42 +45,78 @@ html {
 img {
   height: 150px;
   width: 150px;
+  border: 2px solid lightgray;
+  border-radius: 50%;
   position: relative;
   right: 600px;
   bottom: 15px;
+}
+
+.social-bar {
+  border: 2px dotted lightgray;
+  display: inline;
+  position: relative;
+  padding: 3px;
+  bottom: 28px;
+  left: 665px;
+}
+
+.social-bar button {
+  cursor: pointer;
 }
 
 h1 {
   font-size: 48px;
 }
 
-#nav li {
-  display: inline;
-  background-color: darkgoldenrod;
+.name h2 {
+  color: lightgrey;
   position: relative;
-  font-size: 21px;
-  left: 810px;
+  left: 675px;
+  bottom: 100px;
 }
 
-.sidebar-left {
-  float: left;
-  margin-top: 105px;
-  background-color: darkgoldenrod;
+#nav li {
+  position: relative;
+  display: inline;
+  background-color: peru;
+  font-size: 21px;
+  left: 0;
+  bottom: 400px;
+}
+
+.sidebar-left1 {
+  position: absolute;
+  top: 445px;
+  background-color: peru;
   width: 328px;
   height: 600px;
-  margin-left: 418px;
-  margin-bottom: 25px;
+  left: 500px;
+  bottom: 25px;
   border: 5px double black;
 }
 
+.sidebar-left1::after {
+  content: "Enemies";
+  text-align: center;
+  font-size: 24px;
+  font-style: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: sandybrown;
+  height: 100px;
+  width: 307px;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+
 .sidebar-right {
-  float: right;
-  margin-top: 105px;
-  background-color: darkgoldenrod;
+  position: relative;
+  background-color: peru;
   width: 512px;
   height: 600px;
-  margin-right: 300px;
-  margin-bottom: 25px;
+  left: 860px;
   border: 5px double black;
 }
 
