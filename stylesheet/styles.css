@@ -13,10 +13,17 @@ button:hover {
   color: white;
 }
 
+html {
+  background: url("../images/caravan.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body,
 html {
   height: 100%;
-  background-color: peru;
 }
 
 .hero-image {
@@ -42,7 +49,7 @@ html {
   color: lightgrey;
 }
 
-img {
+.hero-text img {
   height: 150px;
   width: 150px;
   border: 2px solid lightgray;
@@ -79,18 +86,47 @@ h1 {
 #nav li {
   position: relative;
   display: inline;
-  background-color: peru;
   font-size: 21px;
   left: 0;
   bottom: 400px;
 }
 
+.crag img {
+  position: relative;
+  height: 150px;
+  width: 327px;
+  display: inline-block;
+  top: 80px;
+  left: 492px;
+  border: 5px double black;
+}
+
+.spell img {
+  position: relative;
+  height: 150px;
+  width: 327px;
+  display: inline-block;
+  top: 80px;
+  left: 492px;
+  border: 5px double black;
+}
+
+.tink img {
+  position: relative;
+  height: 150px;
+  width: 327px;
+  display: inline-block;
+  top: 80px;
+  left: 492px;
+  border: 5px double black;
+}
+
 .sidebar-left1 {
   position: absolute;
-  top: 445px;
+  top: 400px;
   background-color: peru;
   width: 328px;
-  height: 600px;
+  height: 120px;
   left: 500px;
   bottom: 25px;
   border: 5px double black;
@@ -99,7 +135,9 @@ h1 {
 .sidebar-left1::after {
   content: "Enemies";
   text-align: center;
-  font-size: 24px;
+  line-height: 160px;
+  color: white;
+  font-size: 36px;
   font-style: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -109,19 +147,58 @@ h1 {
   position: relative;
   display: inline-block;
   margin: 5px;
+  background-image: url("../images/group.jpg");
+  background-size: cover;
+  opacity: 0.8;
 }
 
 .sidebar-right {
   position: relative;
   background-color: peru;
   width: 512px;
-  height: 600px;
+  height: 120px;
   left: 860px;
+  bottom: 510px;
   border: 5px double black;
+}
+
+.sidebar-right::after {
+  content: "News Feed";
+  text-align: center;
+  line-height: 160px;
+  color: white;
+  font-size: 36px;
+  font-style: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: sandybrown;
+  height: 100px;
+  width: 491px;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  background-image: url("../images/travel.jpg");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.sidebar-right2 {
+  position: relative;
+  background-color: lightgray;
+  width: 512px;
+  height: 457px;
+  left: 860px;
+  bottom: 502px;
+  border: 5px double black;
+}
+
+.text {
+  padding: 10px;
 }
 
 .footer {
   position: absolute;
-  top: 1100px;
+  top: 1000px;
   left: 900px;
+  color: lightgrey;
 }
