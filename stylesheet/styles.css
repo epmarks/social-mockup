@@ -81,6 +81,7 @@ h1 {
   position: relative;
   left: 675px;
   bottom: 100px;
+  max-width: 300px;
 }
 
 #nav li {
