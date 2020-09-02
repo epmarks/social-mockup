@@ -13,6 +13,10 @@ button:hover {
   color: white;
 }
 
+#nav:hover {
+  cursor: pointer;
+}
+
 html {
   background: url("../images/caravan.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -60,16 +64,11 @@ html {
 }
 
 .social-bar {
-  border: 2px dotted lightgray;
   display: inline;
   position: relative;
   padding: 3px;
   bottom: 28px;
-  left: 665px;
-}
-
-.social-bar button {
-  cursor: pointer;
+  left: 1138px;
 }
 
 h1 {
@@ -79,8 +78,8 @@ h1 {
 .name h2 {
   color: lightgrey;
   position: relative;
-  left: 675px;
-  bottom: 100px;
+  left: 650px;
+  bottom: 70px;
   max-width: 300px;
 }
 
@@ -88,8 +87,9 @@ h1 {
   position: relative;
   display: inline;
   font-size: 21px;
-  left: 0;
-  bottom: 400px;
+  left: 840px;
+  bottom: 118px;
+  color: lightgrey;
 }
 
 .crag img {
